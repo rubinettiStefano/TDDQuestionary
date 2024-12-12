@@ -152,7 +152,7 @@ class TddQuestionaryApplicationTests
 		questionary2.addQuestion(question5);
 		questionary2.addQuestion(question6);
 
-		assertEquals(0.75, questionary2.getVote());
+		assertEquals(7.5, questionary2.getVote());
 
 		Student s = new Student();
 		s.setName("Gina");
@@ -252,7 +252,7 @@ class TddQuestionaryApplicationTests
 		questionary2.addQuestion(question5);
 		questionary2.addQuestion(question6);
 
-		assertEquals(0.75, questionary2.getVote());
+		assertEquals(7.5, questionary2.getVote());
 
 		Student s = new Student();
 		s.setName("Gina");
